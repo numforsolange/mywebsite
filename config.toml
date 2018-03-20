@@ -1,0 +1,66 @@
+## Basic Configuration
+
+baseurl = "https://numforsolange.com" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Numfor Solange"
+title = "Numfor Solange"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Numfor Solange"
+intro = "Master Student in Economics"
+description = "<font color=''>Graduate School of Economics and Management, Tohoku University, Sendai, Japan. <br/><br/> My research interests include Economics and Management, International Trade, Business Innovation and Entrepreneurship, Marketing, Human Resource, Economic Growth and Development. </font>"
+
+
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006" 
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+instagram = "<username>"
+linkedin = "solange-numfor"
+twitter = "solangenumfor"
+facebook = "numfor.solange"
+email = "solangenumfor@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2017. Numfor Solange. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
