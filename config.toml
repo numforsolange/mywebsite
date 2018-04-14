@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://numforsolange.com" 
+baseurl = "https://numforsolange.netlify.com" 
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -15,7 +15,7 @@ title = "Numfor Solange"
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-disqusShortname = "www-numforsolange-com" # Comment out to disable Disqus.
+disqusShortname = "https-numforsolange-netlify-com" # Comment out to disable Disqus.
 googleAnalytics = "XYZ"
 enableRobotsTXT = true
 
