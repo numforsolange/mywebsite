@@ -15,7 +15,7 @@ title = "Numfor Solange"
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-disqusShortname = "https-numforsolange-netlify-com" # Comment out to disable Disqus.
+disqusShortname = "www-numforsolange-com" # Comment out to disable Disqus.
 googleAnalytics = "XYZ"
 enableRobotsTXT = true
 
